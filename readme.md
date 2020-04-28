@@ -36,6 +36,13 @@
 - chore 非 src 或者 测试文件的更新
 - revert commit 回退
 
+```
+fix(server): send cors headers
+feat(blog): add comment section
+docs(文档更新): 文档更新
+
+```
+
 `scope`
 
 scope 是 header 里的可选项，可以以任意名词指明 commit 影响的范围，比如：XX 组件、xx 模块、xx 文件。如果超过一种，可以用 `*` 表示
