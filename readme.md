@@ -36,6 +36,8 @@
 - chore 非 src 或者 测试文件的更新
 - revert commit 回退
 
+ssss
+
 `scope`
 
 scope 是 header 里的可选项，可以以任意名词指明 commit 影响的范围，比如：XX 组件、xx 模块、xx 文件。如果超过一种，可以用 `*` 表示
@@ -164,9 +166,9 @@ yarn add @commitlint/config-conventional @commitlint/cli --dev
 
 ```javascript
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
+  extends: ["@commitlint/config-conventional"],
   rules: {}
-}
+};
 ```
 
 [@commitlint/cli](https://github.com/conventional-changelog/commitlint) 可以帮助我们 lint commit messages。
